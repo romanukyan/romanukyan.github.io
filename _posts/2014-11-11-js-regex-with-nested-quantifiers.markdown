@@ -19,7 +19,7 @@ For n=35 this will require 34 bln backtracking operations which will make most o
 The key to preventing this kind of problem is to make sure that two parts of a regex cannot match the same part of a string. For this regex, the fix is to rewrite it as `/AA+B/`
 
 
-[This JS Perf][js-perf-link] compares the first regex with the second. 
+[This JS Perf][js-perf-link] compares the first regex with the rewritten one. 
 
 
 
