@@ -16,7 +16,7 @@ res = str.match(/(A+A+)+B/)
 The worst case complexity of this regex is O(2^n) backtracking steps for the match to fail. 
 For n=35 this will require 34 bln backtracking operations which will make most of modern browsers hang for a while.
 
-The key to preventing this kind of problem is to make sure that two parts of a regex cannot match the same part of a string. For this regex, the fix is to rewrite it as /AA+B/
+The key to preventing this kind of problem is to make sure that two parts of a regex cannot match the same part of a string. For this regex, the fix is to rewrite it as `/AA+B/`
 
 
 [This JS Perf][js-perf-link] compares the first regex with the second. 
