@@ -5,7 +5,7 @@ date:   2014-11-11 20:48:02
 categories: javascript development
 ---
 
-This is an example to illustrate performance issues caused by regexes qith nested quantifiers. The example and numbers are taken from the book "High Performance JavaScript"
+This is an example to illustrate performance issues caused by regexes with nested quantifiers. The example and numbers are taken from the  ["High Performance JavaScript"]: http://www.amazon.com/Performance-JavaScript-Faster-Application-Interfaces/dp/059680279X
 
 {% highlight javascript %}
 n = 15
@@ -19,8 +19,6 @@ For n=35 this will require 34 bln backtracking operations which will make most o
 The key to preventing this kind of problem is to make sure that two parts of a regex cannot match the same part of a string. For this regex, the fix is to rewrite it as /AA+B/
 
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+JS Perf which compares the first regex with the second: http://jsperf.com/regex-with-nested-quantifiers
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+
