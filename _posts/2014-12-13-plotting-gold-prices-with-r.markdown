@@ -44,6 +44,6 @@ Result:
 ![Gold Prices]({{ site.url }}/assets/gold_prices_screenshot.png)
 
 
-[Github repository ][github-repo] with this code snippet and data file. 
+Check out the [github repository][github-repo] with this code snippet and data file. 
 
 [github-repo]: https://github.com/romanukyan/r_lang
