@@ -1,10 +1,10 @@
 # Site settings
 title: Roman's Notes
-email: your-email@domain.com
+email: romanwebdev@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Random notes from my findings and experiments
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://romanukyan.github.io" # the base hostname & protocol for your site
 twitter_username: romanukyan
 github_username:  romanukyan
 

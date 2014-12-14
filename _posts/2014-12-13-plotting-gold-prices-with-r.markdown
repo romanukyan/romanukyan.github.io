@@ -5,7 +5,7 @@ date:   2014-12-13 11:55:00
 categories: r development
 ---
 
-An experiment with R and it's ggplot2 library.
+An experiment with R and its ggplot2 library.
 
 {% highlight r %}
 library(ggplot2)
@@ -31,6 +31,12 @@ plot_gold <- function(data_file_path){
       plot.title = element_text(colour="brown", size=20, face="bold"))
     # dev.off()
 }
+{% endhighlight %}
+
+This will create the plot:
+
+{% highlight r %}
+plot_gold("gold.csv")
 {% endhighlight %}
 
 Result:
