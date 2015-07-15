@@ -3,6 +3,7 @@ layout: post
 title:  "JavaScript Regexes with nested quantifiers"
 date:   2014-11-11 20:48:02
 categories: javascript development
+published: false
 ---
 
 This is an example to illustrate performance issues caused by regexes with nested quantifiers. The example and numbers are taken from the [High Performance JavaScript][high-performance-js]
